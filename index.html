@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<title>My Park Website </title>
+</head>
+<body>
+<!-- Nav Bar -->
+
+
+<nav class="navbar navbar-expand-lg  navbar-light bg-light py-2 fixed-top ">
+    <div class="container-fluid">
+        <a href="#" class="navbar-brand">Doral Regional Park</a>
+        <button 
+            class="navbar-toggler"
+            type = "button"
+            data-bs-toggle= "collapse"
+            data-bs-target = "#navmenu">
+        <span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navmenu">
+            <ul class="navbar-nav ms-auto">
+              
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+
+                </li>
+                <li class="nav-item">
+                    <a href="#gallery" class="nav-link">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#FAQ" class="nav-link">FAQ</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact Us</a>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Main Section -->
+
+<section class="bg-light  p-10 p-lg-0 pt-lg-10 p-md-10 text-center text-sm-center shadow p-3 mb-5 bg-body">
+
+    <div class="container-fluid p-5 bg-light ">
+        <div class="col-sm">
+            <div class="md-flex bg-light text-dark align-items-center justify-content-evenly">
+                
+                <img src="parks images/main.jpg" 
+                class="img-fluid justify-content-evenly position-relative"
+                >
+                <h1 class="position-absolute align-center">Welcome to South Florida</h1>
+            </div>
+        </div>
+    </div>
+</section> 
+
+
+
+
+<!-- About Section -->
+
+
+
+<section id="about" class="p-10 p-lg-0 lg-10 text-center text-sm-start">
+<div class="container-fluid mt-10 p-5" href = "#about">
+  <div class="container-fluid">
+    <h2 class="text-center " >About Us</h2>
+<div class="row">
+    <div class="row-md col-sm">
+        <div class="d-sm-flex align-items-center justify-content-start d-inline">
+          <div class="d-inline-block">
+            <img src="parks images/img13.jpg" alt="Couple in sitting in the park" class="img-fluid shadow-lg col-lg-8 col-md-6 max-width: 100% img-thumbnail d-inline-block">
+          </div>
+          <div class="d-inline-block">
+            <p class="lead d-inline">Doral regional park is located in the heart of south Florida. For over 50 years it
+                    has been dedicated to the perservation and cultivation of nature as well as providing an enviroment 
+                    were visotors can feel in contact with nature. We operate under the belief that humanity belongs to 
+                    nature and nature to humanity. We are dedicated to providing an environment were visitors can experience a
+                    multitude of experiences, from a quiet afternoon reading, to their most memorable celebrations.
+            
+                  </p>
+                </div>
+        </div>
+    </div>
+</div>
+</section>  
+
+
+
+
+<!-- Gallery -->
+<section id="gallery" class="p-10 p-lg-0 lg-10 text-center text-sm-start shadow-lg  ">
+    <div class="container-fluid">
+        <h2 class="text-center p-5 ">Gallery</h2>
+    <div class="row">
+    <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+      <img
+        src="parks images/gallery/img1.jpg"
+        class="w-100 shadow-1-strong rounded mb-4"
+        alt="Boat on Calm Water"
+      />
+  
+      <img
+        src="parks images/gallery/gimg2.jpg"
+        class="w-100 shadow-1-strong rounded mb-4"
+        alt="Wintry Mountain Landscape"
+      />
+      <!-- <img
+        src="parks images/img21.jpg"
+        class="w-100 shadow-1-strong rounded mb-4"
+        alt="Wintry Mountain Landscape"
+      /> -->
+    </div>
+  
+    <div class="col-lg-4 mb-4 mb-lg-0">
+      <img
+        src="parks images/gallery/gimg3.jpg"
+        class="w-100 shadow-1-strong rounded mb-4"
+        alt="Mountains in the Clouds"
+      />
+  
+      <img
+        src="parks images/gallery/gimg5.jpg"
+        class="w-100 shadow-1-strong rounded mb-4"
+        alt="Boat on Calm Water"
+      />
+    </div>
+  
+    <div class="col-lg-4 mb-4 mb-lg-0">
+      <img
+        src="parks images/img20.jpg"
+        class="w-100 shadow-1-strong rounded mb-4"
+        alt="Waves at Sea"
+      />
+  
+      <img
+        src="parks images/img7.jpg"
+        class="w-100 shadow-1-strong rounded mb-4"
+        alt="Yosemite National Park"
+      />
+    </div>
+  </div>
+</div>
+</section>
+  <!-- Gallery -->
+
+
+<!-- FAQ -->
+<section class="p-5"  id = "FAQ">
+    <div class="container-fluid">
+        <h2 class="text-center mb-4" >
+            Frequently Asked Questions
+        </h2>
+        <div class="accordion accordion-flush" id="questions">
+            <!-- Item 1 -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" >
+                <button 
+                class="accordion-button collapsed" 
+                type="button" 
+                data-bs-toggle="collapse" 
+                data-bs-target="#question-one" 
+                >
+
+                  Are you open on Holidays?
+                </button>
+              </h2>
+              <div 
+              id="question-one" 
+              class="accordion-collapse collapse" 
+              data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Quia asperiores magnam saepe corrupti unde ducimus consequuntur. 
+                     Ad dolorum eligendi alias, necessitatibus iure saepe adipisci debitis quae eos sequi praesentium 
+                     fuga quisquam sunt delectus laudantium aliquam ipsum voluptatum exercitationem quo. 
+                     Veniam ut adipisci quod! Tempore illo odit dicta natus ipsam neque.
+                </div>
+              </div>
+            </div>
+            <!-- Item 2 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" >
+                  <button 
+                  class="accordion-button collapsed" 
+                  type="button" 
+                  data-bs-toggle="collapse" 
+                  data-bs-target="#question-two" 
+                  
+                  >
+  
+                    Are my pets allowed?
+                  </button>
+                </h2>
+                <div 
+                id="question-two" 
+                class="accordion-collapse collapse" 
+                data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                       Quia asperiores magnam saepe corrupti unde ducimus consequuntur. 
+                       Ad dolorum eligendi alias, necessitatibus iure saepe adipisci debitis quae eos sequi praesentium 
+                       fuga quisquam sunt delectus laudantium aliquam ipsum voluptatum exercitationem quo. 
+                       Veniam ut adipisci quod! Tempore illo odit dicta natus ipsam neque.
+                  </div>
+                </div>
+              </div>
+            <!-- Item 3 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" >
+                  <button 
+                  class="accordion-button collapsed" 
+                  type="button" 
+                  data-bs-toggle="collapse" 
+                  data-bs-target="#question-three" 
+                  
+                  >
+  
+                    Are the private sections first-come-first-serve or do I need to reserve in advance?
+                  </button>
+                </h2>
+                <div 
+                id="question-three" 
+                class="accordion-collapse collapse" 
+                data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                       Quia asperiores magnam saepe corrupti unde ducimus consequuntur. 
+                       Ad dolorum eligendi alias, necessitatibus iure saepe adipisci debitis quae eos sequi praesentium 
+                       fuga quisquam sunt delectus laudantium aliquam ipsum voluptatum exercitationem quo. 
+                       Veniam ut adipisci quod! Tempore illo odit dicta natus ipsam neque.
+                  </div>
+                </div>
+              </div>
+              <!-- Item 4 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" >
+                  <button 
+                  class="accordion-button collapsed" 
+                  type="button" 
+                  data-bs-toggle="collapse" 
+                  data-bs-target="#question-four" 
+                  
+                  >
+  
+                    Is there a limit to the size of event I can organize?
+                  </button>
+                </h2>
+                <div 
+                id="question-four" 
+                class="accordion-collapse collapse" 
+                data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                       Quia asperiores magnam saepe corrupti unde ducimus consequuntur. 
+                       Ad dolorum eligendi alias, necessitatibus iure saepe adipisci debitis quae eos sequi praesentium 
+                       fuga quisquam sunt delectus laudantium aliquam ipsum voluptatum exercitationem quo. 
+                       Veniam ut adipisci quod! Tempore illo odit dicta natus ipsam neque.
+                  </div>
+                </div>
+
+
+                
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" >
+                  <button 
+                  class="accordion-button collapsed" 
+                  type="button" 
+                  data-bs-toggle="collapse" 
+                  data-bs-target="#question-five" 
+                  
+                  >
+  
+                    What type of events can I organize at the park?
+                  </button>
+                </h2>
+                <div 
+                id="question-five" 
+                class="accordion-collapse collapse" 
+                data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                       Quia asperiores magnam saepe corrupti unde ducimus consequuntur. 
+                       Ad dolorum eligendi alias, necessitatibus iure saepe adipisci debitis quae eos sequi praesentium 
+                       fuga quisquam sunt delectus laudantium aliquam ipsum voluptatum exercitationem quo. 
+                       Veniam ut adipisci quod! Tempore illo odit dicta natus ipsam neque.
+                  </div>
+                </div>
+              </div>
+    </div>
+</section>
+
+<!-- Contact Info -->
+
+<section class="p-5 justify-content-evenly" id = "contact">
+  <h2 class="text-center mb-4 ">Contact Us</h2>
+    <div class="container-fluid hstack gap-2">
+        <div class="row g-4">
+            <div class="col-md">
+                
+                <img src="parks images/map.png" alt="" class="d-inline">
+                <ul class="list-group list-group-flush lead d-inline">
+                    <li class="list-group-item">
+                        <span class="fw-bold">Main Location:</span> 6425 NW 41ST, Doral Fl 33149.
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <span class="fw-bold">Email:</span> campos0170@gmail.com
+                    </li>
+                    <li class="list-group-item">
+                      <span class="fw-bold">Phone:</span> 855-233-8484
+                  </li>
+                    
+                   
+
+                </ul>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Footer -->
+
+<footer class="bg-dark text-light justify-content-evenly">
+    <p class="lead text-center p-3 ">&copy: 2024 Abraham Campos. Images Unplash</p>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>
